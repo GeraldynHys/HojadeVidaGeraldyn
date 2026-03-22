@@ -1,0 +1,78 @@
+/* Configuración General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro sutil */
+    color: #ffffff;
+}
+
+/* Menú de Navegación Estilo U. de Cartagena */
+nav {
+    background-color: #000000; /* Negro puro */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #ffcc00; /* Línea Amarilla */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #ffcc00; /* Texto Amarillo */
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Encabezado / Perfil */
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5rem;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid #ffcc00; /* Marco Amarillo para la foto */
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Secciones de Información */
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #262626; /* Gris muy oscuro para contraste */
+    border-left: 8px solid #ffcc00; /* Detalle lateral amarillo */
+    border-radius: 5px;
+}
+
+h2 {
+    color: #ffcc00;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #000000;
+    color: #888;
+    border-top: 1px solid #333;
+}
