@@ -1,78 +1,48 @@
-/* Configuración General */
+/* Color principal: Rosa Pastel (#ffc0cb) */
+/* Color de contraste: Blanco (#ffffff) */
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1a1a1a; /* Fondo oscuro sutil */
-    color: #ffffff;
+    background-color: #f8f9fa; /* Un blanco grisáceo muy suave para el fondo */
+    color: #333; /* Texto gris oscuro para que sea fácil de leer */
 }
 
-/* Menú de Navegación Estilo U. de Cartagena */
+/* Títulos en Rosa */
+h1, h2, h3 {
+    color: #d63384 !important; /* Un rosa más fuerte para que resalte */
+    font-weight: bold;
+}
+
+/* El contenedor principal con borde rosa */
+.container {
+    border-radius: 20px;
+    border: 1px solid #ffc0cb;
+}
+
+/* Botón del formulario en rosa */
+.btn-warning {
+    background-color: #ffc0cb !important;
+    border-color: #ffc0cb !important;
+    color: #d63384 !important;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background-color: #f8bbd0 !important;
+    color: white !important;
+}
+
+/* Menú de navegación */
 nav {
-    background-color: #000000; /* Negro puro */
-    padding: 20px;
-    text-align: center;
-    border-bottom: 4px solid #ffcc00; /* Línea Amarilla */
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    background-color: #ffffff !important;
+    border-bottom: 3px solid #ffc0cb;
 }
 
 nav a {
-    color: #ffcc00; /* Texto Amarillo */
-    text-decoration: none;
-    margin: 0 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 0.9rem;
+    color: #d63384 !important;
 }
 
-nav a:hover {
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff;
-}
-
-/* Encabezado / Perfil */
-header {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 10px 0;
-    font-size: 2.5rem;
-}
-
-img {
-    border-radius: 50%;
-    border: 5px solid #ffcc00; /* Marco Amarillo para la foto */
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
-}
-
-/* Secciones de Información */
-section {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 25px;
-    background-color: #262626; /* Gris muy oscuro para contraste */
-    border-left: 8px solid #ffcc00; /* Detalle lateral amarillo */
-    border-radius: 5px;
-}
-
-h2 {
-    color: #ffcc00;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-}
-
-/* Pie de Página */
-footer {
-    text-align: center;
-    padding: 30px;
-    background-color: #000000;
-    color: #888;
-    border-top: 1px solid #333;
+/* Estilo para los campos del formulario */
+.form-control:focus {
+    border-color: #ffc0cb;
+    box-shadow: 0 0 0 0.25rem rgba(255, 192, 203, 0.25);
 }
